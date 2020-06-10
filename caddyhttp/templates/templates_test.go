@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mholt/caddy/caddyhttp/httpserver"
-	"github.com/mholt/caddy/caddyhttp/staticfiles"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy/caddyhttp/staticfiles"
 )
 
 func TestTemplates(t *testing.T) {

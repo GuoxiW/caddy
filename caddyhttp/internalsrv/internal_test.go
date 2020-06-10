@@ -23,7 +23,7 @@ import (
 
 	"strconv"
 
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 const (

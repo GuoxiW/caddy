@@ -1,4 +1,4 @@
-module github.com/mholt/caddy
+module github.com/GuoxiW/caddy
 
 go 1.12
 

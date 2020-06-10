@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 func init() {

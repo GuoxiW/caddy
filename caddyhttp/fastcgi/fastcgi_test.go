@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 func TestServeHTTP(t *testing.T) {

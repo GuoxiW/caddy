@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 func init() {
@@ -67,7 +67,7 @@ outer:
 		}
 
 		// In order to avoid unused memory allocation, gzip.putWriter only be called when gzip compression happened.
-		// see https://github.com/mholt/caddy/issues/2395
+		// see https://github.com/GuoxiW/caddy/issues/2395
 		gz := &gzipResponseWriter{
 			ResponseWriterWrapper: &httpserver.ResponseWriterWrapper{ResponseWriter: w},
 			newWriter: func() io.Writer {

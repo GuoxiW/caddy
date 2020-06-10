@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyfile"
-	"github.com/mholt/caddy/caddyhttp/staticfiles"
-	"github.com/mholt/caddy/caddytls"
-	"github.com/mholt/caddy/telemetry"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/caddyfile"
+	"github.com/GuoxiW/caddy/caddyhttp/staticfiles"
+	"github.com/GuoxiW/caddy/caddytls"
+	"github.com/GuoxiW/caddy/telemetry"
 	"github.com/mholt/certmagic"
 )
 

@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 func TestPushAvailable(t *testing.T) {

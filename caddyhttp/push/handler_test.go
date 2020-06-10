@@ -25,7 +25,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 type MockedPusher struct {

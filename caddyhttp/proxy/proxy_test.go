@@ -40,8 +40,8 @@ import (
 	"time"
 
 	"github.com/lucas-clemente/quic-go/h2quic"
-	"github.com/mholt/caddy/caddyfile"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy/caddyfile"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 
 	"golang.org/x/net/websocket"
 )

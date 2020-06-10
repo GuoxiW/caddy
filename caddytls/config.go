@@ -27,7 +27,7 @@ import (
 
 	"github.com/go-acme/lego/certcrypto"
 	"github.com/klauspost/cpuid"
-	"github.com/mholt/caddy"
+	"github.com/GuoxiW/caddy"
 	"github.com/mholt/certmagic"
 )
 
@@ -327,7 +327,7 @@ func MakeTLSConfig(configs []*Config) (*tls.Config, error) {
 		// A tls.Config must have Certificates or GetCertificate
 		// set, in order to be accepted by tls.Listen and quic.Listen.
 		// TODO: remove this once the standard library allows a tls.Config with
-		// only GetConfigForClient set. https://github.com/mholt/caddy/pull/2404
+		// only GetConfigForClient set. https://github.com/GuoxiW/caddy/pull/2404
 		GetCertificate: func(*tls.ClientHelloInfo) (*tls.Certificate, error) {
 			return nil, fmt.Errorf("all certificates configured via GetConfigForClient")
 		},
@@ -531,7 +531,7 @@ var defaultCiphersNonAESNI = []uint16{
 // getPreferredDefaultCiphers returns an appropriate cipher suite to use, depending on
 // the hardware support available for AES-NI.
 //
-// See https://github.com/mholt/caddy/issues/1674
+// See https://github.com/GuoxiW/caddy/issues/1674
 func getPreferredDefaultCiphers() []uint16 {
 	if cpuid.CPU.AesNi() {
 		return defaultCiphers

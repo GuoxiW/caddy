@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"github.com/lucas-clemente/quic-go/h2quic"
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/staticfiles"
-	"github.com/mholt/caddy/caddytls"
-	"github.com/mholt/caddy/telemetry"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/caddyhttp/staticfiles"
+	"github.com/GuoxiW/caddy/caddytls"
+	"github.com/GuoxiW/caddy/telemetry"
 )
 
 // Server is the HTTP server implementation.

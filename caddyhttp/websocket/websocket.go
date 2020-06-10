@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/GuoxiW/caddy/caddyhttp/httpserver"
 )
 
 const (

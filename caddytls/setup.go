@@ -28,8 +28,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/telemetry"
+	"github.com/GuoxiW/caddy"
+	"github.com/GuoxiW/caddy/telemetry"
 	"github.com/mholt/certmagic"
 )
 
